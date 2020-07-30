@@ -15,6 +15,7 @@ module.exports = {
     port: 3000,
     contentBase: path.join(__dirname, "app"),
     hot: true,
+    // to set up url redirecting to home page
     historyApiFallback: { index: "index.html" }
   },
   // need to install @babel/core @babel/preset-env @babel/preset-react babel-loader
